@@ -87,7 +87,7 @@ class SpilloverEnhancedAnalysis {
             console.log('Información de municipios fronterizos cargada');
             
             // Cargar GeoJSON de Sinaloa
-            const sinaloaResponse = await fetch('data/sinaloa_municipios_wgs84_simplified.geojson');
+            const sinaloaResponse = await fetch('data/sinaloa_municipios_new_simplified.geojson');
             this.sinaloaGeojson = await sinaloaResponse.json();
             console.log('GeoJSON de Sinaloa cargado:', this.sinaloaGeojson.features.length, 'municipios');
             

@@ -114,7 +114,7 @@ class SinaloaHeatMap {
         
         try {
             console.log('Intentando cargar GeoJSON...');
-            const response = await fetch('data/sinaloa_municipios_wgs84_simplified.geojson');
+            const response = await fetch('data/sinaloa_municipios_new_simplified.geojson');
             console.log('Response status:', response.status, response.statusText);
             
             if (!response.ok) {

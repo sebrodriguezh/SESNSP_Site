@@ -111,7 +111,7 @@ class SinaloaRegionalAnalysis {
         console.log('🗺️ Cargando GeoJSON para análisis regional...');
         
         try {
-            const response = await fetch('data/sinaloa_municipios_wgs84_simplified.geojson');
+            const response = await fetch('data/sinaloa_municipios_new_simplified.geojson');
             
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
