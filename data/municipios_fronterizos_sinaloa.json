@@ -1,0 +1,90 @@
+{
+  "descripcion": "Municipios fronterizos con Sinaloa por estado",
+  "fecha_procesamiento": "2025-08-17T23:39:30.203435",
+  "estados": {
+    "Sonora": [
+      {
+        "nombre": "Huatabampo",
+        "clave": "26033",
+        "estado": "Sonora"
+      },
+      {
+        "nombre": "Álamos",
+        "clave": "26003",
+        "estado": "Sonora"
+      }
+    ],
+    "Chihuahua": [
+      {
+        "nombre": "Chínipas",
+        "clave": "08020",
+        "estado": "Chihuahua"
+      },
+      {
+        "nombre": "Batopilas de Manuel Gómez Morín",
+        "clave": "08008",
+        "estado": "Chihuahua"
+      },
+      {
+        "nombre": "Guazapares",
+        "clave": "08030",
+        "estado": "Chihuahua"
+      },
+      {
+        "nombre": "Urique",
+        "clave": "08065",
+        "estado": "Chihuahua"
+      },
+      {
+        "nombre": "Morelos",
+        "clave": "08046",
+        "estado": "Chihuahua"
+      },
+      {
+        "nombre": "Guadalupe y Calvo",
+        "clave": "08029",
+        "estado": "Chihuahua"
+      }
+    ],
+    "Durango": [
+      {
+        "nombre": "Pueblo Nuevo",
+        "clave": "10023",
+        "estado": "Durango"
+      },
+      {
+        "nombre": "San Dimas",
+        "clave": "10026",
+        "estado": "Durango"
+      },
+      {
+        "nombre": "Tamazula",
+        "clave": "10034",
+        "estado": "Durango"
+      }
+    ],
+    "Nayarit": [
+      {
+        "nombre": "Acaponeta",
+        "clave": "18001",
+        "estado": "Nayarit"
+      },
+      {
+        "nombre": "Huajicori",
+        "clave": "18005",
+        "estado": "Nayarit"
+      },
+      {
+        "nombre": "Tecuala",
+        "clave": "18016",
+        "estado": "Nayarit"
+      }
+    ]
+  },
+  "resumen": {
+    "Sonora": 2,
+    "Chihuahua": 6,
+    "Durango": 3,
+    "Nayarit": 3
+  }
+}

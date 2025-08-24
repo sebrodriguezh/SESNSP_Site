@@ -1,0 +1,207 @@
+/* Estilos para snapshots - Completamente limpio SIN CAJAS */
+
+/* Contenedor principal */
+.snapshots-container {
+    margin-bottom: 2rem !important;
+}
+
+.snapshots-controls {
+    display: flex !important;
+    gap: 1rem !important;
+    align-items: center !important;
+    margin-bottom: 2rem !important;
+    padding: 1rem !important;
+    background-color: #f8f9fa !important;
+    border-radius: 8px !important;
+    border: 1px solid #e9ecef !important;
+}
+
+.snapshots-controls .control-group {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+}
+
+.snapshots-controls label {
+    font-weight: 600 !important;
+    color: #495057 !important;
+    font-size: 0.9rem !important;
+}
+
+.snapshots-controls select {
+    padding: 0.5rem !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 4px !important;
+    background-color: white !important;
+    font-size: 0.9rem !important;
+}
+
+/* Grid horizontal - 4 columnas para más espacio por mapa */
+#snapshots-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 1rem !important;
+    margin-top: 1rem !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+/* Elementos COMPLETAMENTE SIN CAJAS */
+.snapshot-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important;
+    /* ELIMINAR TODAS LAS CAJAS */
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+}
+
+/* Título simple arriba del mapa */
+.snapshot-header {
+    text-align: center !important;
+    margin-bottom: 0.5rem !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.snapshot-title {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+}
+
+/* Mapa SIN NINGÚN ELEMENTO VISUAL EXTRA - MÁS GRANDE */
+.snapshot-map {
+    height: 250px !important;
+    width: 100% !important;
+    /* ELIMINAR TODAS LAS CAJAS Y RESTRICCIONES */
+    border: none !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* Loading state sin decoración */
+.snapshot-loading {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 250px !important;
+    color: #6c757d !important;
+    font-style: italic !important;
+    font-size: 10px !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Responsive design para lectura horizontal */
+@media (max-width: 1200px) {
+    #snapshots-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 1rem !important;
+    }
+    
+    .snapshot-map {
+        height: 280px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    #snapshots-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem !important;
+    }
+    
+    .snapshot-map {
+        height: 320px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #snapshots-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    .snapshot-map {
+        height: 350px !important;
+    }
+    
+    .snapshot-title {
+        font-size: 14px !important;
+    }
+}
+
+/* Estilos específicos para snapshots regionales */
+#regional-snapshots-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 1rem !important;
+    margin-top: 1rem !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    min-height: 300px !important;
+    width: 100% !important;
+    position: relative !important;
+    visibility: visible !important;
+}
+
+/* Aplicar los mismos estilos a los mapas regionales */
+#regional-snapshots-grid .snapshot-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+}
+
+#regional-snapshots-grid .snapshot-map {
+    height: 250px !important;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* Responsive para snapshots regionales */
+@media (max-width: 1200px) {
+    #regional-snapshots-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media (max-width: 900px) {
+    #regional-snapshots-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #regional-snapshots-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
