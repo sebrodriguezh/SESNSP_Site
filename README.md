@@ -69,3 +69,4 @@ Este proyecto es para uso académico y de investigación
 ---
 
 **Nota**: Los datos utilizados provienen de fuentes oficiales del gobierno mexicano y están sujetos a actualizaciones periódicas.
+# GitHub Pages Deployment
