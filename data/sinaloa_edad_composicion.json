@@ -1,0 +1,466 @@
+{
+  "Homicidio doloso": {
+    "Enero 2024": {
+      "Menores de edad (0-17)": 1,
+      "Adultos (18 y más)": 42,
+      "No especificado": 9,
+      "No identificado": 0
+    },
+    "Febrero 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 31,
+      "No especificado": 6,
+      "No identificado": 1
+    },
+    "Marzo 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 25,
+      "No especificado": 9,
+      "No identificado": 0
+    },
+    "Abril 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 27,
+      "No especificado": 6,
+      "No identificado": 0
+    },
+    "Mayo 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 34,
+      "No especificado": 8,
+      "No identificado": 0
+    },
+    "Junio 2024": {
+      "Menores de edad (0-17)": 1,
+      "Adultos (18 y más)": 36,
+      "No especificado": 8,
+      "No identificado": 0
+    },
+    "Julio 2024": {
+      "Menores de edad (0-17)": 2,
+      "Adultos (18 y más)": 40,
+      "No especificado": 7,
+      "No identificado": 1
+    },
+    "Agosto 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 34.0,
+      "No especificado": 9.0,
+      "No identificado": 1.0
+    },
+    "Septiembre 2024": {
+      "Menores de edad (0-17)": 4.0,
+      "Adultos (18 y más)": 111.0,
+      "No especificado": 28.0,
+      "No identificado": 0
+    },
+    "Octubre 2024": {
+      "Menores de edad (0-17)": 9.0,
+      "Adultos (18 y más)": 136.0,
+      "No especificado": 37.0,
+      "No identificado": 0
+    },
+    "Noviembre 2024": {
+      "Menores de edad (0-17)": 2.0,
+      "Adultos (18 y más)": 124.0,
+      "No especificado": 48.0,
+      "No identificado": 0
+    },
+    "Diciembre 2024": {
+      "Menores de edad (0-17)": 7.0,
+      "Adultos (18 y más)": 119.0,
+      "No especificado": 31.0,
+      "No identificado": 0
+    },
+    "Enero 2025": {
+      "Menores de edad (0-17)": 6,
+      "Adultos (18 y más)": 114,
+      "No especificado": 27,
+      "No identificado": 0
+    },
+    "Febrero 2025": {
+      "Menores de edad (0-17)": 4,
+      "Adultos (18 y más)": 98,
+      "No especificado": 18,
+      "No identificado": 0
+    },
+    "Marzo 2025": {
+      "Menores de edad (0-17)": 4,
+      "Adultos (18 y más)": 101,
+      "No especificado": 30,
+      "No identificado": 0
+    },
+    "Abril 2025": {
+      "Menores de edad (0-17)": 1,
+      "Adultos (18 y más)": 89,
+      "No especificado": 29,
+      "No identificado": 0
+    },
+    "Mayo 2025": {
+      "Menores de edad (0-17)": 9,
+      "Adultos (18 y más)": 130,
+      "No especificado": 26,
+      "No identificado": 0
+    },
+    "Junio 2025": {
+      "Menores de edad (0-17)": 3,
+      "Adultos (18 y más)": 156,
+      "No especificado": 48,
+      "No identificado": 0
+    },
+    "Julio 2025": {
+      "Menores de edad (0-17)": 6,
+      "Adultos (18 y más)": 104,
+      "No especificado": 60,
+      "No identificado": 0
+    }
+  },
+  "Homicidio culposo": {
+    "Enero 2024": {
+      "Menores de edad (0-17)": 3,
+      "Adultos (18 y más)": 50,
+      "No especificado": 7,
+      "No identificado": 0
+    },
+    "Febrero 2024": {
+      "Menores de edad (0-17)": 2,
+      "Adultos (18 y más)": 45,
+      "No especificado": 8,
+      "No identificado": 0
+    },
+    "Marzo 2024": {
+      "Menores de edad (0-17)": 7,
+      "Adultos (18 y más)": 63,
+      "No especificado": 9,
+      "No identificado": 1
+    },
+    "Abril 2024": {
+      "Menores de edad (0-17)": 9,
+      "Adultos (18 y más)": 47,
+      "No especificado": 9,
+      "No identificado": 0
+    },
+    "Mayo 2024": {
+      "Menores de edad (0-17)": 5,
+      "Adultos (18 y más)": 49,
+      "No especificado": 11,
+      "No identificado": 2
+    },
+    "Junio 2024": {
+      "Menores de edad (0-17)": 4,
+      "Adultos (18 y más)": 41,
+      "No especificado": 12,
+      "No identificado": 1
+    },
+    "Julio 2024": {
+      "Menores de edad (0-17)": 5,
+      "Adultos (18 y más)": 43,
+      "No especificado": 12,
+      "No identificado": 0
+    },
+    "Agosto 2024": {
+      "Menores de edad (0-17)": 5.0,
+      "Adultos (18 y más)": 31.0,
+      "No especificado": 7.0,
+      "No identificado": 0
+    },
+    "Septiembre 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 32.0,
+      "No especificado": 9.0,
+      "No identificado": 0
+    },
+    "Octubre 2024": {
+      "Menores de edad (0-17)": 6.0,
+      "Adultos (18 y más)": 35.0,
+      "No especificado": 10.0,
+      "No identificado": 0
+    },
+    "Noviembre 2024": {
+      "Menores de edad (0-17)": 2.0,
+      "Adultos (18 y más)": 25.0,
+      "No especificado": 7.0,
+      "No identificado": 0
+    },
+    "Diciembre 2024": {
+      "Menores de edad (0-17)": 2.0,
+      "Adultos (18 y más)": 27.0,
+      "No especificado": 13.0,
+      "No identificado": 1.0
+    },
+    "Enero 2025": {
+      "Menores de edad (0-17)": 3,
+      "Adultos (18 y más)": 26,
+      "No especificado": 18,
+      "No identificado": 0
+    },
+    "Febrero 2025": {
+      "Menores de edad (0-17)": 6,
+      "Adultos (18 y más)": 38,
+      "No especificado": 13,
+      "No identificado": 0
+    },
+    "Marzo 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 38,
+      "No especificado": 11,
+      "No identificado": 0
+    },
+    "Abril 2025": {
+      "Menores de edad (0-17)": 5,
+      "Adultos (18 y más)": 37,
+      "No especificado": 12,
+      "No identificado": 0
+    },
+    "Mayo 2025": {
+      "Menores de edad (0-17)": 4,
+      "Adultos (18 y más)": 35,
+      "No especificado": 10,
+      "No identificado": 0
+    },
+    "Junio 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 36,
+      "No especificado": 13,
+      "No identificado": 1
+    },
+    "Julio 2025": {
+      "Menores de edad (0-17)": 7,
+      "Adultos (18 y más)": 27,
+      "No especificado": 12,
+      "No identificado": 1
+    }
+  },
+  "Feminicidio": {
+    "Enero 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 1,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Febrero 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 3,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Marzo 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 1,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Abril 2024": {
+      "Menores de edad (0-17)": 1,
+      "Adultos (18 y más)": 0,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Mayo 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 2,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Junio 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 1,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Julio 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 4,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Agosto 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 1.0,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Septiembre 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 1.0,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Octubre 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 5.0,
+      "No especificado": 1.0,
+      "No identificado": 0
+    },
+    "Noviembre 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 0,
+      "No especificado": 2.0,
+      "No identificado": 0
+    },
+    "Diciembre 2024": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 5.0,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Enero 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 0,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Febrero 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 4,
+      "No especificado": 1,
+      "No identificado": 0
+    },
+    "Marzo 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 1,
+      "No especificado": 1,
+      "No identificado": 0
+    },
+    "Abril 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 6,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Mayo 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 2,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Junio 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 5,
+      "No especificado": 0,
+      "No identificado": 0
+    },
+    "Julio 2025": {
+      "Menores de edad (0-17)": 0,
+      "Adultos (18 y más)": 4,
+      "No especificado": 0,
+      "No identificado": 0
+    }
+  },
+  "Otros delitos que atentan contra la vida y la integridad corporal": {
+    "Enero 2024": {
+      "Menores de edad (0-17)": 18,
+      "Adultos (18 y más)": 24,
+      "No especificado": 16,
+      "No identificado": 6
+    },
+    "Febrero 2024": {
+      "Menores de edad (0-17)": 11,
+      "Adultos (18 y más)": 26,
+      "No especificado": 13,
+      "No identificado": 2
+    },
+    "Marzo 2024": {
+      "Menores de edad (0-17)": 16,
+      "Adultos (18 y más)": 29,
+      "No especificado": 8,
+      "No identificado": 5
+    },
+    "Abril 2024": {
+      "Menores de edad (0-17)": 13,
+      "Adultos (18 y más)": 28,
+      "No especificado": 14,
+      "No identificado": 3
+    },
+    "Mayo 2024": {
+      "Menores de edad (0-17)": 21,
+      "Adultos (18 y más)": 32,
+      "No especificado": 17,
+      "No identificado": 7
+    },
+    "Junio 2024": {
+      "Menores de edad (0-17)": 17,
+      "Adultos (18 y más)": 28,
+      "No especificado": 18,
+      "No identificado": 3
+    },
+    "Julio 2024": {
+      "Menores de edad (0-17)": 8,
+      "Adultos (18 y más)": 43,
+      "No especificado": 17,
+      "No identificado": 5
+    },
+    "Agosto 2024": {
+      "Menores de edad (0-17)": 17.0,
+      "Adultos (18 y más)": 41.0,
+      "No especificado": 4.0,
+      "No identificado": 8.0
+    },
+    "Septiembre 2024": {
+      "Menores de edad (0-17)": 19.0,
+      "Adultos (18 y más)": 25.0,
+      "No especificado": 11.0,
+      "No identificado": 4.0
+    },
+    "Octubre 2024": {
+      "Menores de edad (0-17)": 15.0,
+      "Adultos (18 y más)": 40.0,
+      "No especificado": 14.0,
+      "No identificado": 12.0
+    },
+    "Noviembre 2024": {
+      "Menores de edad (0-17)": 11.0,
+      "Adultos (18 y más)": 25.0,
+      "No especificado": 13.0,
+      "No identificado": 5.0
+    },
+    "Diciembre 2024": {
+      "Menores de edad (0-17)": 19.0,
+      "Adultos (18 y más)": 30.0,
+      "No especificado": 17.0,
+      "No identificado": 3.0
+    },
+    "Enero 2025": {
+      "Menores de edad (0-17)": 5,
+      "Adultos (18 y más)": 31,
+      "No especificado": 14,
+      "No identificado": 0
+    },
+    "Febrero 2025": {
+      "Menores de edad (0-17)": 16,
+      "Adultos (18 y más)": 29,
+      "No especificado": 8,
+      "No identificado": 17
+    },
+    "Marzo 2025": {
+      "Menores de edad (0-17)": 12,
+      "Adultos (18 y más)": 28,
+      "No especificado": 28,
+      "No identificado": 15
+    },
+    "Abril 2025": {
+      "Menores de edad (0-17)": 9,
+      "Adultos (18 y más)": 27,
+      "No especificado": 20,
+      "No identificado": 20
+    },
+    "Mayo 2025": {
+      "Menores de edad (0-17)": 13,
+      "Adultos (18 y más)": 30,
+      "No especificado": 18,
+      "No identificado": 22
+    },
+    "Junio 2025": {
+      "Menores de edad (0-17)": 15,
+      "Adultos (18 y más)": 31,
+      "No especificado": 25,
+      "No identificado": 29
+    },
+    "Julio 2025": {
+      "Menores de edad (0-17)": 11,
+      "Adultos (18 y más)": 23,
+      "No especificado": 14,
+      "No identificado": 1
+    }
+  }
+}

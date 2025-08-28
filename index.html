@@ -767,6 +767,33 @@
                     <p class="chart-subtitle">Casos registrados por mes</p>
                     <div id="tabla-sinaloa-mensual-idvfc"></div>
                 </div>
+
+                <!-- Gráfica 13. Composición por edad de víctimas en Sinaloa (2024-2025) -->
+                <div class="chart-container">
+                    <h3>Gráfica 13. Composición por edad de víctimas en Sinaloa (2024-2025)</h3>
+                    <p class="chart-subtitle">Distribución de víctimas por rango de edad según subtipo de delito</p>
+                    
+                    <div class="chart-controls">
+                        <div class="control-group">
+                            <label for="edad-subtipo-selector">Subtipo de delito:</label>
+                            <select id="edad-subtipo-selector">
+                                <option value="Homicidio doloso">Homicidio doloso</option>
+                                <option value="Homicidio culposo">Homicidio culposo</option>
+                                <option value="Feminicidio">Feminicidio</option>
+                                <option value="Otros delitos que atentan contra la vida y la integridad corporal">Otros delitos contra la vida</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <canvas id="chart-sinaloa-edad-composicion"></canvas>
+                </div>
+
+                <!-- Tabla 13. Composición por edad de víctimas en Sinaloa (2024-2025) -->
+                <div class="table-container">
+                    <h3>Tabla 13. Composición por edad de víctimas en Sinaloa (2024-2025)</h3>
+                    <p class="chart-subtitle">Casos registrados por rango de edad y mes</p>
+                    <div id="tabla-sinaloa-edad-composicion"></div>
+                </div>
             </section>
         </div>
     </main>
@@ -5517,9 +5544,14 @@
 
         setupIDVFCSinaloaMensualSelector();
         
+        // Inicializar gráfica de composición por edad
+        initSinaloaEdadComposicion();
 
     });
     </script>
+
+    <!-- Script para gráfica de composición por edad en Sinaloa -->
+    <script src="scripts/sinaloa_edad_chart.js"></script>
 </body>
 
 </html>
