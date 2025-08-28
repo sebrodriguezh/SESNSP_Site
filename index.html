@@ -23,6 +23,23 @@
         </div>
         </header>
 
+    <!-- Barra de navegación con pestañas -->
+    <nav class="tabs-navigation">
+        <div class="container">
+            <div class="tabs-container">
+                <a href="https://sebrodriguezh.github.io/Cifras-de-Incidencia-Delictiva-Federal-2012---2025/" class="tab-link" target="_blank">
+                    <span class="tab-text">INCIDENCIA FEDERAL</span>
+                </a>
+                <a href="#nacional" class="tab-link active">
+                    <span class="tab-text">INCIDENCIA ESTATAL (CASOS)</span>
+                </a>
+                <a href="#sinaloa" class="tab-link">
+                    <span class="tab-text">INCIDENCIA ESTATAL (VÍCTIMAS)</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
     <main class="main-content">
         <div class="container">
             <!-- Análisis Nacional -->
@@ -5552,6 +5569,62 @@
 
     <!-- Script para gráfica de composición por edad en Sinaloa -->
     <script src="scripts/sinaloa_edad_chart.js"></script>
+
+    <!-- Script para navegación de pestañas -->
+    <script>
+        // Navegación suave entre pestañas
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabLinks = document.querySelectorAll('.tab-link');
+            
+            tabLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Solo manejar enlaces internos (no externos)
+                    if (!this.href.includes('http') || this.href.includes(window.location.hostname)) {
+                        e.preventDefault();
+                        
+                        // Remover clase active de todas las pestañas
+                        tabLinks.forEach(tab => tab.classList.remove('active'));
+                        
+                        // Agregar clase active a la pestaña clickeada
+                        this.classList.add('active');
+                        
+                        // Scroll suave al elemento objetivo
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        
+                        if (targetElement) {
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
+                    }
+                });
+            });
+            
+            // Actualizar pestaña activa basada en scroll
+            window.addEventListener('scroll', function() {
+                const sections = document.querySelectorAll('section[id]');
+                const scrollPos = window.scrollY + 100;
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+                    
+                    if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                        // Actualizar pestaña activa
+                        tabLinks.forEach(tab => {
+                            tab.classList.remove('active');
+                            if (tab.getAttribute('href') === '#' + sectionId) {
+                                tab.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
