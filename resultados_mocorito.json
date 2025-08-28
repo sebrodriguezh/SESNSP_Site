@@ -1,0 +1,447 @@
+{
+  "municipio": "Mocorito",
+  "total_subtipos": 55,
+  "cambios_significativos": [],
+  "todos_resultados": [
+    {
+      "subtipo": "Aborto",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Abuso de confianza",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Abuso sexual",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Acoso sexual",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Allanamiento de morada",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Amenazas",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Contra el medio ambiente",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Corrupción de menores",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Daño a la propiedad",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Delitos cometidos por servidores públicos",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Despojo",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Electorales",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Evasión de presos",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Extorsión",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Falsedad",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Falsificación",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Feminicidio",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Fraude",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Homicidio culposo",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Homicidio doloso",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Hostigamiento sexual",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Incesto",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Incumplimiento de obligaciones de asistencia familiar",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Lesiones culposas",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Lesiones dolosas",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Narcomenudeo",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos contra el patrimonio",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos contra la familia",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos contra la sociedad",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos del Fuero Común",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos que atentan contra la libertad personal",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos que atentan contra la libertad y la seguridad sexual",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros delitos que atentan contra la vida y la integridad corporal",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Otros robos",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Rapto",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo a casa habitación",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo a institución bancaria",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo a negocio",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo a transeúnte en espacio abierto al público",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo a transeúnte en vía pública",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo a transportista",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo de autopartes",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo de ganado",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo de maquinaria",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo de vehículo automotor",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo en transporte individual",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo en transporte público colectivo",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Robo en transporte público individual",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Secuestro",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Trata de personas",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Tráfico de menores",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Violación equiparada",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Violación simple",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Violencia de género en todas sus modalidades distinta a la violencia familiar",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    },
+    {
+      "subtipo": "Violencia familiar",
+      "promedio_antes": 0.0,
+      "promedio_despues": 0.0,
+      "cambio_porcentual": 0,
+      "es_significativo": false,
+      "valores_mensuales": {}
+    }
+  ]
+}

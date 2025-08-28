@@ -1066,13 +1066,13 @@
     function createIDVFCChart() {
         const ctx = document.getElementById('chart-violencia-homicida-idvfc');
         if (!ctx) {
-            console.error('Canvas chart-violencia-homicida-idvfc no encontrado');
+
             return;
         }
 
         // Destruir gráfica existente si existe
         if (window.idvfcChart) {
-            console.log('🗑️ Destruyendo gráfica existente de IDVFC');
+
             window.idvfcChart.destroy();
         }
 
@@ -1173,14 +1173,14 @@
 
         // Guardar referencia global para evitar conflictos
         window.idvfcChart = chart;
-        console.log('✅ Gráfica IDVFC creada y guardada globalmente');
+
     }
 
     // Función para crear la tabla IDVFC (EXACTA a la original)
     function createIDVFCTable() {
         const container = document.getElementById('tabla-violencia-homicida-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-violencia-homicida-idvfc no encontrado');
+
             return;
         }
 
@@ -1303,14 +1303,14 @@
         
         container.innerHTML = '';
         container.appendChild(table);
-        console.log('✅ Tabla IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Tabla 1.1: Contribución de cada delito al cambio 2024-2025
     function createIDVFCContribucionTable() {
         const container = document.getElementById('tabla-contribucion-cambio-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-contribucion-cambio-idvfc no encontrado');
+
             return;
         }
 
@@ -1442,20 +1442,20 @@
         
         container.innerHTML = '';
         container.appendChild(table);
-        console.log('✅ Tabla 1.1 IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Gráfica 2: Cambios porcentuales anuales
     function createIDVFCCambiosAnualesChart() {
         const ctx = document.getElementById('chart-cambios-nacional-idvfc');
         if (!ctx) {
-            console.error('Canvas chart-cambios-nacional-idvfc no encontrado');
+
             return;
         }
 
         // Destruir gráfica existente si existe
         if (window.idvfcCambiosAnualesChart) {
-            console.log('🗑️ Destruyendo gráfica existente de cambios anuales IDVFC');
+
             window.idvfcCambiosAnualesChart.destroy();
         }
 
@@ -1591,14 +1591,14 @@
 
         // Guardar referencia global para evitar conflictos
         window.idvfcCambiosAnualesChart = chart;
-        console.log('✅ Gráfica 2 IDVFC creada y guardada globalmente');
+
     }
 
     // Función para crear la Tabla 2: Cambios porcentuales anuales
     function createIDVFCCambiosAnualesTable() {
         const container = document.getElementById('tabla-cambios-nacional-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-cambios-nacional-idvfc no encontrado');
+
             return;
         }
 
@@ -1694,20 +1694,20 @@
         
         container.innerHTML = '';
         container.appendChild(table);
-        console.log('✅ Tabla 2 IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Gráfica 3: Evolución mensual de la violencia homicida
     function createIDVFCMensualChart() {
         const ctx = document.getElementById('chart-violencia-mensual-idvfc');
         if (!ctx) {
-            console.error('Canvas chart-violencia-mensual-idvfc no encontrado');
+
             return;
         }
 
         // Destruir gráfica existente si existe
         if (window.idvfcMensualChart) {
-            console.log('🗑️ Destruyendo gráfica existente mensual IDVFC');
+
             window.idvfcMensualChart.destroy();
         }
 
@@ -1810,14 +1810,14 @@
 
         // Guardar referencia global para evitar conflictos
         window.idvfcMensualChart = chart;
-        console.log('✅ Gráfica 3 IDVFC creada y guardada globalmente');
+
     }
 
     // Función para crear la Tabla 3: Violencia homicida mensual
     function createIDVFCMensualTable() {
         const container = document.getElementById('tabla-violencia-mensual-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-violencia-mensual-idvfc no encontrado');
+
             return;
         }
 
@@ -1884,20 +1884,20 @@
         
         container.innerHTML = '';
         container.appendChild(table);
-        console.log('✅ Tabla 3 IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Gráfica 4: Cambios porcentuales mensuales
     function createIDVFCCambiosMensualesChart() {
         const ctx = document.getElementById('chart-cambios-mensual-nacional-idvfc');
         if (!ctx) {
-            console.error('Canvas chart-cambios-mensual-nacional-idvfc no encontrado');
+
             return;
         }
 
         // Destruir gráfica existente si existe
         if (window.idvfcCambiosMensualesChart) {
-            console.log('🗑️ Destruyendo gráfica existente de cambios mensuales IDVFC');
+
             window.idvfcCambiosMensualesChart.destroy();
         }
 
@@ -2039,14 +2039,14 @@
 
         // Guardar referencia global para evitar conflictos
         window.idvfcCambiosMensualesChart = chart;
-        console.log('✅ Gráfica 4 IDVFC creada y guardada globalmente');
+
     }
 
     // Función para crear la Tabla 4: Cambios porcentuales mensuales
     function createIDVFCCambiosMensualesTable() {
         const container = document.getElementById('tabla-cambios-mensual-nacional-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-cambios-mensual-nacional-idvfc no encontrado');
+
             return;
         }
 
@@ -2148,20 +2148,20 @@
         
         container.innerHTML = '';
         container.appendChild(table);
-        console.log('✅ Tabla 4 IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Gráfica 5: Tasas por 100,000 habitantes
     function createIDVFCRatesChart() {
         const ctx = document.getElementById('chart-violencia-homicida-rates-idvfc');
         if (!ctx) {
-            console.error('Canvas chart-violencia-homicida-rates-idvfc no encontrado');
+
             return;
         }
 
         // Destruir gráfica existente si existe
         if (window.idvfcRatesChart) {
-            console.log('🗑️ Destruyendo gráfica existente de tasas IDVFC');
+
             window.idvfcRatesChart.destroy();
         }
 
@@ -2283,15 +2283,15 @@
 
         // Guardar referencia global para evitar conflictos
         window.idvfcRatesChart = chart;
-        console.log('✅ Gráfica 5 IDVFC creada y guardada globalmente');
+
         
         // Validar tasa 2025 para homicidios dolosos
         const tasaHomicidios2025 = ratesData.find(r => r.Delito === 'Homicidio doloso')['2025'];
-        console.log(`✅ VALIDACIÓN: Tasa homicidios dolosos 2025 = ${tasaHomicidios2025.toFixed(10)}`);
+
         if (Math.abs(tasaHomicidios2025 - 11.0739182884) < 0.0001) {
-            console.log('✅ VALIDACIÓN EXITOSA: Tasa coincide con valor esperado');
+
         } else {
-            console.error('❌ VALIDACIÓN FALLIDA: Tasa no coincide con valor esperado');
+
         }
     }
 
@@ -2299,7 +2299,7 @@
     function createIDVFCRatesTable() {
         const container = document.getElementById('tabla-violencia-homicida-rates-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-violencia-homicida-rates-idvfc no encontrado');
+
             return;
         }
 
@@ -2426,14 +2426,14 @@
         
         container.innerHTML = '';
         container.appendChild(table);
-        console.log('✅ Tabla 5 IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Tabla 6: Nivel de violencia homicida por estado (2025)
     function createIDVFCEstatalTable() {
         const container = document.getElementById('tabla-estatal-idvfc-2025');
         if (!container) {
-            console.error('Contenedor tabla-estatal-idvfc-2025 no encontrado');
+
             return;
         }
 
@@ -2652,14 +2652,14 @@
         const initialTable = renderTable('Total');
         container.appendChild(initialTable);
         
-        console.log('✅ Tabla 6 IDVFC creada exitosamente');
+
     }
 
     // Función para crear la Gráfica 6: Composición por estado (2025)
     function createIDVFCEstatalChart() {
         const canvas = document.getElementById('chart-estatal-stacked-idvfc');
         if (!canvas) {
-            console.error('Canvas chart-estatal-stacked-idvfc no encontrado');
+
             return;
         }
 
@@ -3046,7 +3046,7 @@
             }
         });
         
-        console.log('✅ Gráfica 6 IDVFC creada exitosamente');
+
     }
 
     // Datos reales del CSV IDVFC_NM_jul25.csv - TODOS los meses con datos completos
@@ -4235,7 +4235,7 @@
         function createIDVFCRankingMensualTable() {
             const container = document.getElementById('ranking-tables-grid-idvfc');
             if (!container) {
-                console.error('❌ Contenedor ranking-tables-grid-idvfc no encontrado');
+
                 return;
             }
 
@@ -4337,7 +4337,7 @@
 
         // Función para actualizar todas las tablas (réplica exacta del formato nacional)
         function updateAllRankingTables(tipoViolencia) {
-            console.log(`🔄 Actualizando tablas para: ${tipoViolencia}`);
+
             
             // Obtener todas las tablas mensuales
             const monthContainers = document.querySelectorAll('#ranking-tables-grid-idvfc .ranking-table-container');
@@ -4390,31 +4390,31 @@
                 }
             });
             
-            console.log(`✅ Tablas actualizadas para: ${tipoViolencia}`);
+
         }
 
-        console.log('✅ Tabla 7 IDVFC (Ranking mensual) creada - RÉPLICA EXACTA');
+
         }
 
     // Función para crear la Tabla 8: Tasas de violencia homicida a nivel estatal (2025) - RÉPLICA EXACTA
     function createIDVFCEstatalRatesTable() {
-        console.log('🚀 Iniciando createIDVFCEstatalRatesTable...');
+
         
         const container = document.getElementById('tabla-estatal-rates-idvfc-2025');
         if (!container) {
-            console.error('❌ Contenedor tabla-estatal-rates-idvfc-2025 no encontrado');
+
             return;
         }
         
-        console.log('✅ Contenedor encontrado:', container);
+
 
         // Verificar que rankingMensualData esté disponible
         if (!rankingMensualData) {
-            console.error('❌ rankingMensualData no está disponible');
+
             return;
         }
         
-        console.log('✅ rankingMensualData disponible:', Object.keys(rankingMensualData).length, 'meses');
+
 
         // ✅ DATOS CORRECTOS: CSV IDVFC_NM_jul25.csv - AÑO 2025 ÚNICAMENTE
         // Filtrado por: Año = 2025, Entidad, Subtipo de delito (4 subtipos de violencia homicida)
@@ -4678,11 +4678,10 @@
             }
         ];
         
-        console.log('✅ Total de estados procesados:', estadosData.length);
-        console.log('🔍 Muestra de datos:', estadosData.slice(0, 3));
+
 
         // Convertir datos a tasas por 100,000 habitantes
-        console.log('🔍 Calculando tasas para', estadosData.length, 'estados...');
+
         
         const ratesData = estadosData.map(row => {
             const nombreEstado = row.Estado;
@@ -4711,7 +4710,7 @@
             return rateRow;
         });
         
-        console.log('✅ Tasas calculadas para', ratesData.length, 'estados');
+
 
         // Calcular datos nacionales
         const nacionalTotals = {
@@ -4921,14 +4920,14 @@
         container.appendChild(initialTable);
         container.appendChild(sourceNote);
         
-        console.log('✅ Tabla 8 IDVFC (Tasas estatales) creada - RÉPLICA EXACTA');
+
     }
 
     // Función para crear la Gráfica 9: Evolución de la violencia homicida en Sinaloa (2019-2025)
     function createIDVFCSinaloaAnualChart() {
         const canvas = document.getElementById('chart-sinaloa-anual-idvfc');
         if (!canvas) {
-            console.error('Canvas chart-sinaloa-anual-idvfc no encontrado');
+
             return;
         }
 
@@ -5023,14 +5022,14 @@
             }
         });
 
-        console.log('✅ Gráfica 9 IDVFC (Sinaloa anual) creada');
+
     }
 
     // Función para crear la Tabla 11: Violencia homicida en Sinaloa por tipo de delito (2019-2025)
     function createIDVFCSinaloaAnualTable() {
         const container = document.getElementById('tabla-sinaloa-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-sinaloa-idvfc no encontrado');
+
             return;
         }
 
@@ -5142,14 +5141,14 @@
         container.appendChild(table);
         container.appendChild(sourceNote);
         
-        console.log('✅ Tabla 11 IDVFC (Sinaloa anual) creada');
+
     }
 
     // Función para crear la Gráfica 10: Evolución mensual de la violencia homicida en Sinaloa (2024-2025)
     function createIDVFCSinaloaMensualChart() {
         const canvas = document.getElementById('chart-grafica-10-sinaloa-idvfc');
         if (!canvas) {
-            console.error('Canvas chart-grafica-10-sinaloa-idvfc no encontrado');
+
             return;
         }
 
@@ -5177,7 +5176,7 @@
     function updateIDVFCSinaloaMensualChart(subtipoSeleccionado) {
         const canvas = document.getElementById('chart-grafica-10-sinaloa-idvfc');
         if (!canvas) {
-            console.error('Canvas chart-grafica-10-sinaloa-idvfc no encontrado');
+
             return;
         }
 
@@ -5299,14 +5298,14 @@
         // Guardar referencia del gráfico
         window.idvfcGrafica10Chart = chart;
         
-        console.log(`✅ Gráfica 10 IDVFC actualizada para: ${subtipoSeleccionado}`);
+
     }
 
     // Función para crear la Tabla 12: Evolución mensual de la violencia homicida en Sinaloa (2024-2025)
     function createIDVFCSinaloaMensualTable() {
         const container = document.getElementById('tabla-sinaloa-mensual-idvfc');
         if (!container) {
-            console.error('Contenedor tabla-sinaloa-mensual-idvfc no encontrado');
+
             return;
         }
 
@@ -5420,105 +5419,105 @@
         container.appendChild(table);
         container.appendChild(sourceNote);
         
-        console.log('✅ Tabla 12 IDVFC (Sinaloa mensual) creada');
+
     }
 
     // Configurar event listener para el selector de subtipos de la Gráfica 10
     function setupIDVFCSinaloaMensualSelector() {
         const selector = document.getElementById('grafica-10-subtipo-selector-idvfc');
         if (selector) {
-            console.log('✅ Configurando event listener para selector de subtipos IDVFC...');
+
             selector.addEventListener('change', function() {
-                console.log('🔄 Cambio detectado en selector IDVFC:', this.value);
+
                 updateIDVFCSinaloaMensualChart(this.value);
             });
-            console.log('✅ Event listener configurado para selector IDVFC');
+
         } else {
-            console.error('❌ Selector grafica-10-subtipo-selector-idvfc no encontrado');
+
         }
     }
 
     // Inicializar cuando el DOM esté listo
     document.addEventListener('DOMContentLoaded', function() {
-        console.log('🚀 Inicializando IDVFC...');
+
         
         // Verificar datos críticos
         const datos2025 = idvfcViolenciaHomicidaData.find(row => row.Delito === 'Homicidio doloso');
         const homicidios2025 = datos2025['2025'];
-        console.log(`✅ VALIDACIÓN: Homicidios dolosos 2025 (ene-jul) = ${homicidios2025.toLocaleString()}`);
+
         
         if (homicidios2025 === 14769) {
-            console.log('✅ VALIDACIÓN EXITOSA: Datos coinciden con CSV');
+
         } else {
-            console.error('❌ VALIDACIÓN FALLIDA: Datos no coinciden con CSV');
+
         }
         
         // Verificar que el contenedor de la Tabla 8 existe
         const tabla8Container = document.getElementById('tabla-estatal-rates-idvfc-2025');
-        console.log('🔍 Contenedor Tabla 8 IDVFC:', tabla8Container);
+
         
         // Crear visualizaciones
-        console.log('📊 Creando Gráfica 1 IDVFC...');
+
         createIDVFCChart();
         
-        console.log('📊 Creando Tabla 1 IDVFC...');
+
         createIDVFCTable();
         
-        console.log('📊 Creando Tabla 1.1 IDVFC...');
+
         createIDVFCContribucionTable();
         
-        console.log('📊 Creando Gráfica 2 IDVFC...');
+
         createIDVFCCambiosAnualesChart();
         
-        console.log('📊 Creando Tabla 2 IDVFC...');
+
         createIDVFCCambiosAnualesTable();
         
-        console.log('📊 Creando Gráfica 3 IDVFC...');
+
         createIDVFCMensualChart();
         
-        console.log('📊 Creando Tabla 3 IDVFC...');
+
         createIDVFCMensualTable();
         
-        console.log('📊 Creando Gráfica 4 IDVFC...');
+
         createIDVFCCambiosMensualesChart();
         
-        console.log('📊 Creando Tabla 4 IDVFC...');
+
         createIDVFCCambiosMensualesTable();
         
-        console.log('📊 Creando Gráfica 5 IDVFC...');
+
         createIDVFCRatesChart();
         
-        console.log('📊 Creando Tabla 5 IDVFC...');
+
         createIDVFCRatesTable();
         
-        console.log('📊 Creando Tabla 6 IDVFC...');
+
         createIDVFCEstatalTable();
         
-        console.log('📊 Creando Gráfica 6 IDVFC...');
+
         createIDVFCEstatalChart();
         
-        console.log('📊 Creando Tabla 7 IDVFC...');
+
         createIDVFCRankingMensualTable();
         
-        console.log('📊 Creando Tabla 8 IDVFC...');
+
         createIDVFCEstatalRatesTable();
         
-        console.log('📊 Creando Gráfica 9 IDVFC (Sinaloa)...');
+
         createIDVFCSinaloaAnualChart();
         
-        console.log('📊 Creando Tabla 11 IDVFC (Sinaloa)...');
+
         createIDVFCSinaloaAnualTable();
         
-        console.log('📊 Creando Gráfica 10 IDVFC (Sinaloa mensual)...');
+
         createIDVFCSinaloaMensualChart();
         
-        console.log('📊 Creando Tabla 12 IDVFC (Sinaloa mensual)...');
+
         createIDVFCSinaloaMensualTable();
         
-        console.log('📊 Configurando selector de subtipos IDVFC...');
+
         setupIDVFCSinaloaMensualSelector();
         
-        console.log('✅ IDVFC inicializado completamente');
+
     });
     </script>
 </body>
