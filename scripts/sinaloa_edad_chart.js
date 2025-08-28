@@ -95,8 +95,11 @@ function createSinaloaEdadComposicionChart() {
                         label: function(context) {
                             const dataset = context.dataset;
                             const value = context.parsed.y;
-                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                            const porcentaje = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                            const dataIndex = context.dataIndex;
+                            
+                            // Calcular el total del mes específico (suma de todos los datasets en ese índice)
+                            const totalMes = context.chart.data.datasets.reduce((sum, ds) => sum + ds.data[dataIndex], 0);
+                            const porcentaje = totalMes > 0 ? ((value / totalMes) * 100).toFixed(1) : 0;
                             
                             return `${dataset.label}: ${value.toLocaleString()} casos (${porcentaje}%)`;
                         },
