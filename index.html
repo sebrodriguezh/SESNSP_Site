@@ -19,7 +19,7 @@
     <div class="container">
             <h1>Impacto de la Guerra en Municipios de Sinaloa</h1>
             <p class="subtitle">Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</p>
-            <p class="update-date">Última actualización: Julio 2025</p>
+            <p class="update-date">Última actualización: Agosto 2025</p>
         </div>
         </header>
 
@@ -33,7 +33,7 @@
                 <a href="#nacional" class="tab-link active">
                     <span class="tab-text">INCIDENCIA ESTATAL (CASOS)</span>
                 </a>
-                <a href="#sinaloa" class="tab-link">
+                <a href="idvfc.html" class="tab-link">
                     <span class="tab-text">INCIDENCIA ESTATAL (VÍCTIMAS)</span>
                 </a>
             </div>
@@ -632,188 +632,10 @@
         </div>
             </section>
 
-            <!-- Incidencia Federal (IDVFC) -->
-            <section id="idvfc" class="section">
-                <h2>Incidencia Federal (IDVFC)</h2>
-
-                <!-- Gráfica 1: Evolución de la violencia homicida a nivel nacional (2019-2025) -->
-                <div class="chart-container">
-                    <h3>Gráfica 1. Evolución de la violencia homicida a nivel nacional (2019-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados de enero a julio por año</p>
-                    <canvas id="chart-violencia-homicida-idvfc"></canvas>
-            </div>
-
-                <!-- Tabla 1: Valores mensuales de la violencia homicida a nivel nacional (2019-2025) -->
-                <div class="table-container">
-                    <h3>Tabla 1. Violencia homicida por tipo de delito (2019-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados de enero a julio por año</p>
-                    <div id="tabla-violencia-homicida-idvfc"></div>
-        </div>
-
-                <div class="table-container">
-                    <h3>Tabla 1.1. Contribución de cada delito al cambio 2024-2025</h3>
-                    <p class="chart-subtitle">Análisis del peso relativo de cada delito en la variación total</p>
-                    <div id="tabla-contribucion-cambio-idvfc"></div>
-    </div>
-
-                <div class="chart-container">
-                    <h3>Gráfica 2. Cambios porcentuales anuales de la violencia homicida a nivel nacional</h3>
-                    <p class="chart-subtitle">Variación porcentual año con año (2019-2025)</p>
-                    <canvas id="chart-cambios-nacional-idvfc"></canvas>
-                </div>
-
-                <div class="table-container">
-                    <h3>Tabla 2. Cambios porcentuales anuales a nivel nacional</h3>
-                    <p class="chart-subtitle">Variación porcentual año con año por tipo de delito</p>
-                    <div id="tabla-cambios-nacional-idvfc"></div>
-                </div>
-
-                <div class="chart-container">
-                    <h3>Gráfica 3. Evolución mensual de la violencia homicida a nivel nacional (2024-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados por mes</p>
-                    <canvas id="chart-violencia-mensual-idvfc"></canvas>
-                </div>
-                
-                <div class="table-container">
-                    <h3>Tabla 3. Violencia homicida mensual a nivel nacional (2024-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados por mes</p>
-                    <div id="tabla-violencia-mensual-idvfc"></div>
-                </div>
-
-                <div class="chart-container">
-                    <h3>Gráfica 4. Cambios porcentuales mensuales de la violencia homicida a nivel nacional (2024-2025)</h3>
-                    <p class="chart-subtitle">Variación porcentual mes con mes</p>
-                    <canvas id="chart-cambios-mensual-nacional-idvfc"></canvas>
-                </div>
-
-                <div class="table-container">
-                    <h3>Tabla 4. Cambios porcentuales mensuales a nivel nacional (2024-2025)</h3>
-                    <p class="chart-subtitle">Variación porcentual mes con mes por tipo de delito</p>
-                    <div id="tabla-cambios-mensual-nacional-idvfc"></div>
-                </div>
-
-                <div class="chart-container">
-                    <h3>Gráfica 5. Evolución de la violencia homicida a nivel nacional (2019-2025)</h3>
-                    <p class="chart-subtitle">Tasa por cada 100,000 habitantes de enero a julio por año</p>
-                    <canvas id="chart-violencia-homicida-rates-idvfc"></canvas>
-                </div>
-
-                <div class="table-container">
-                    <h3>Tabla 5. Violencia homicida por tipo de delito (2019-2025)</h3>
-                    <p class="chart-subtitle">Tasa por cada 100,000 habitantes de enero a julio por año</p>
-                    <div id="tabla-violencia-homicida-rates-idvfc"></div>
-                </div>
-
-                <div class="table-container">
-                    <h3>Tabla 6. Nivel de la violencia homicida a nivel estatal (2025)</h3>
-                    <p class="chart-subtitle" id="tabla-estatal-idvfc-subtitle">Estados ordenados por mayor número de homicidios dolosos (enero-julio 2025)</p>
-                    <div id="tabla-estatal-idvfc-2025"></div>
-                </div>
-
-                <div class="chart-container">
-                    <h3>Gráfica 6. Composición de la violencia homicida por estado (2025)</h3>
-                    <p class="chart-subtitle">Distribución por tipo de delito (enero-julio 2025)</p>
-                    <canvas id="chart-estatal-stacked-idvfc"></canvas>
-                </div>
-
-                <div class="ranking-evolution-container">
-                    <h3>Tabla 7. Evolución mensual del ranking estatal (Top 10)</h3>
-                    <p class="chart-subtitle">Ranking de estados por tipo de violencia - 19 meses (Enero 2024 a Julio 2025)</p>
-                    
-                    <div class="ranking-controls">
-                        <label for="violence-type-selector-idvfc">Tipo de violencia:</label>
-                        <select id="violence-type-selector-idvfc">
-                            <option value="Total">Violencia homicida total</option>
-                            <option value="Homicidio doloso">Homicidio doloso</option>
-                            <option value="Homicidio culposo">Homicidio culposo</option>
-                            <option value="Feminicidio">Feminicidio</option>
-                            <option value="Otros delitos que atentan contra la vida y la integridad corporal">Otros delitos contra la vida</option>
-                        </select>
-                    </div>
-
-                    <div id="ranking-tables-grid-idvfc" class="ranking-grid">
-                        <!-- Las tablas se generarán dinámicamente aquí -->
-                    </div>
-                </div>
-
-                <div class="table-container">
-                    <h3>Tabla 8. Tasas de violencia homicida a nivel estatal (2025)</h3>
-                    <p class="chart-subtitle" id="tabla-estatal-rates-idvfc-subtitle">Estados ordenados por mayor tasa de violencia homicida total por 100,000 habitantes (enero-julio 2025)</p>
-                    
-                    <div id="tabla-estatal-rates-idvfc-2025"></div>
-                </div>
-
-                <!-- Gráfica 9. Evolución de la violencia homicida en Sinaloa (2019-2025) -->
-                <div class="chart-container">
-                    <h3>Gráfica 9. Evolución de la violencia homicida en Sinaloa (2019-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados de enero a julio por año</p>
-                    <canvas id="chart-sinaloa-anual-idvfc"></canvas>
-                </div>
-
-                <!-- Tabla 11. Violencia homicida en Sinaloa por tipo de delito (2019-2025) -->
-                <div class="table-container">
-                    <h3>Tabla 11. Violencia homicida en Sinaloa por tipo de delito (2019-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados de enero a julio por año</p>
-                    <div id="tabla-sinaloa-idvfc"></div>
-                </div>
-
-                <!-- Gráfica 10. Evolución mensual de la violencia homicida en Sinaloa (2024-2025) -->
-                <div class="chart-container">
-                    <h3>Gráfica 10. Evolución mensual de la violencia homicida en Sinaloa (2024-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados por mes</p>
-                    
-                    <div class="chart-controls">
-                        <div class="control-group">
-                            <label for="grafica-10-subtipo-selector-idvfc">Subtipo de delito:</label>
-                            <select id="grafica-10-subtipo-selector-idvfc">
-                                <option value="Homicidio doloso">Homicidio doloso</option>
-                                <option value="Homicidio culposo">Homicidio culposo</option>
-                                <option value="Feminicidio">Feminicidio</option>
-                                <option value="Otros delitos que atentan contra la vida y la integridad corporal">Otros delitos contra la vida</option>
-                                <option value="Total">Total violencia homicida</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <canvas id="chart-grafica-10-sinaloa-idvfc"></canvas>
-                </div>
-
-                <!-- Tabla 12. Evolución mensual de la violencia homicida en Sinaloa (2024-2025) -->
-                <div class="table-container">
-                    <h3>Tabla 12. Evolución mensual de la violencia homicida en Sinaloa (2024-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados por mes</p>
-                    <div id="tabla-sinaloa-mensual-idvfc"></div>
-                </div>
-
-                <!-- Gráfica 13. Composición por edad de víctimas en Sinaloa (2024-2025) -->
-                <div class="chart-container">
-                    <h3>Gráfica 13. Composición por edad de víctimas en Sinaloa (2024-2025)</h3>
-                    <p class="chart-subtitle">Distribución de víctimas por rango de edad según subtipo de delito</p>
-                    
-                    <div class="chart-controls">
-                        <div class="control-group">
-                            <label for="edad-subtipo-selector">Subtipo de delito:</label>
-                            <select id="edad-subtipo-selector">
-                                <option value="Homicidio doloso">Homicidio doloso</option>
-                                <option value="Homicidio culposo">Homicidio culposo</option>
-                                <option value="Feminicidio">Feminicidio</option>
-                                <option value="Otros delitos que atentan contra la vida y la integridad corporal">Otros delitos contra la vida</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <canvas id="chart-sinaloa-edad-composicion"></canvas>
-                </div>
-
-                <!-- Tabla 13. Composición por edad de víctimas en Sinaloa (2024-2025) -->
-                <div class="table-container">
-                    <h3>Tabla 13. Composición por edad de víctimas en Sinaloa (2024-2025)</h3>
-                    <p class="chart-subtitle">Casos registrados por rango de edad y mes</p>
-                    <div id="tabla-sinaloa-edad-composicion"></div>
-                </div>
-            </section>
         </div>
     </main>
+
+
 
     <footer class="footer">
         <div class="container">
@@ -5578,8 +5400,17 @@
             
             tabLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
-                    // Solo manejar enlaces internos (no externos)
-                    if (!this.href.includes('http') || this.href.includes(window.location.hostname)) {
+                    const href = this.getAttribute('href');
+                    
+                    // Permitir navegación a páginas externas o a idvfc.html
+                    if (href.includes('http') && !href.includes(window.location.hostname)) {
+                        // Enlace externo - permitir navegación normal
+                        return;
+                    } else if (href === 'idvfc.html' || href === 'index.html') {
+                        // Enlace a otra página - permitir navegación normal
+                        return;
+                    } else if (href.startsWith('#')) {
+                        // Enlace interno con hash - manejar scroll
                         e.preventDefault();
                         
                         // Remover clase active de todas las pestañas
@@ -5589,7 +5420,7 @@
                         this.classList.add('active');
                         
                         // Scroll suave al elemento objetivo
-                        const targetId = this.getAttribute('href').substring(1);
+                        const targetId = href.substring(1);
                         const targetElement = document.getElementById(targetId);
                         
                         if (targetElement) {
